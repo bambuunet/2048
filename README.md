@@ -1,2 +1,2 @@
-# 2048
+# Automate 2048
 I automate a game named 2048 to get high score.
