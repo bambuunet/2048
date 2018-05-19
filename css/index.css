@@ -1,0 +1,123 @@
+body{
+  background: #b5aa9c;
+}
+.container{
+  height: 84vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+}
+table{
+  margin: 3vh 0 0 0;
+  width: 100%;
+}
+td{
+  background: #F65000;
+  border-color: #b5aa9c;
+  border-left: solid 1px #b5aa9c;
+  color: #fff;
+  font-size: 24px;
+  padding: 0;
+  text-align: center;
+  width: 23%;
+}
+button{
+  background: #EEE2D5;
+  border-color: #888;
+  color: #736D62;
+  font-weight: 700;
+  height: 50px;
+  width: 75px;
+  position: absolute;
+}
+button[disabled="disabled"]{
+  background: none;
+}
+button:hover{
+  border-color: #888;
+}
+.cursor{
+  margin: 30px 0 0 0;
+  height: 130px;
+  position: relative;
+}
+#up{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#down{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#left{
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+#right{
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.setting{
+  bottom: 0;
+  position: absolute;
+}
+.setting label{
+  display: inline;
+}
+#user_id{
+  width: 50px;
+}
+
+#score_id{
+  display: none;
+}
+
+.val0{
+  background: #C5C2AC;
+  color: #736D62;
+}
+.val2{
+  background: #EEE2D5;
+  color: #736D62;
+}
+.val4{
+  background: #E6E2BD;
+  color: #736D62;
+}
+.val8{
+  background: #EEB662;
+}
+.val16{
+  background: #F6954A;
+}
+.val32{
+  background: #F6714A;
+}
+.val64{
+  background: #F65000;
+}
+.val128{
+  background: #E6DA52;
+}
+.val256{
+  background: #E6DA52;
+}
+.val512{
+  background: #E6DA52;
+}
+.val1024{
+  background: #E6DA52;
+}
+.val2048{
+  background: #E6DA52;
+}
